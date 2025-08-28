@@ -1,8 +1,8 @@
 import React from 'react'
 import './Contact.css'
-import linkedin_logo from '../../Assets/linkedIn.png'
-import call_icon from '../../Assets/call-icon.png'
-import mail_icon from '../../Assets/gmai-icon.png'
+import linkedin_logo from '../../assets/linkedIn.png'
+import call_icon from '../../assets/call-icon.png'
+import mail_icon from '../../assets/gmai-icon.png'
 
 const Contact = () => {
   return (
