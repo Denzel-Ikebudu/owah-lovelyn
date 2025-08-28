@@ -1,0 +1,33 @@
+.about{
+    background: #ffffff;
+    padding: 30px;
+    display: inline-block;
+}
+.about h2{
+    color: #223242;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.about-right{
+    border-radius: 2rem;
+    padding: 25px;
+    /* background: #ADD7FF; */
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333333;
+    width: 100%;
+    color: #014051;
+}
+
+@media screen and (max-width: 768px){
+    .about{
+        padding: 15px;
+    }
+}
