@@ -25,11 +25,11 @@ const Projects = () => {
 
       <div className={`project-box ${expandedBox === 'boxA' ? 'expanded' : ''}`}>
         <div className='project-header' onClick={() => handleBoxClick('boxA')}>
-          <h3>Project for SimplifyVA</h3>
+          <h3>Project for Simplifyvas</h3>
           <FaFolderOpen size={32} color="#223246" style={{ marginBottom: '8px' }} />
         </div>
         <div className='project-content'>
-          <p>Here's a detailed report on the work I did for SimplifyVA company. <br />
+          <p>Here's a detailed report on the work I did for Simplifyvas company. <br />
             Click to view or download the documents .</p>
             <div className="document-container">
               {expandedBox === 'boxA' && (
@@ -37,19 +37,19 @@ const Projects = () => {
                   <div className='each-box'>
                     <iframe src={project1} title="" />
                     <a href={voulay1} download className="download-btn">
-                      Download Case Study
+                      Download
                     </a>
                   </div>
                   <div className='each-box'>
                     <iframe src={project2} title="" />
                     <a href={voulay1} download className="download-btn">
-                      Download Case Study
+                      Download
                     </a>
                   </div>
                   <div className='each-box'>
                     <iframe src={project5} title="" />
                     <a href={voulay1} download className="download-btn">
-                      Download Case Study
+                      Download
                     </a>
                   </div>
                 </>
@@ -74,13 +74,13 @@ const Projects = () => {
                 <div className='each-box'>
                   <iframe src={voulay1} title="Voulay Case Study" />
                   <a href={voulay1} download className="download-btn">
-                    Download Case Study
+                    Download
                   </a>
                 </div>
                 <div className='each-box'>
                   <iframe src={voulay2} title="Company B Case Study" />
                   <a href={voulay2} download className="download-btn">
-                    Download Case Study
+                    Download
                   </a>
                 </div>
               </>

@@ -117,8 +117,18 @@ button img {
         display: block;
         filter: brightness(0) invert(1);
     }
+
         @keyframes slideDown {
             0% { opacity: 0; transform: translateY(-30px); }
             100% { opacity: 1; transform: translateY(0); }
         }
+}
+@media screen and (max-width: 455px){
+    .navbar{
+        padding: 20px 10px;
+    }
+    button{
+        padding: 0.3rem 0.2rem;
+        font-size: 0.8rem;
+    }
 }

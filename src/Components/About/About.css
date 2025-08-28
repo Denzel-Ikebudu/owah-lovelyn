@@ -10,18 +10,11 @@
     padding-bottom: 1.5rem;
     font-weight: 600;
 }
+
 .about-content{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.about-right{
-    border-radius: 2rem;
-    padding: 25px;
-    /* background: #ADD7FF; */
+    padding: 10px;
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #333333;
     width: 100%;
     color: #014051;
 }
@@ -29,5 +22,10 @@
 @media screen and (max-width: 768px){
     .about{
         padding: 15px;
+    }
+}
+@media screen and (max-width: 455px){
+    .about{
+        padding: 5px;
     }
 }

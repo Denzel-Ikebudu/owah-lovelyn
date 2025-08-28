@@ -24,9 +24,7 @@ const Hero = () => {
           <span className='introRole'>Business growth strategist <br /> and Copywriter</span>
 
           <p className="introPara"> 
-            Whether it’s writing high-converting 
-            copy, designing a funnel that captures<br /> and converts, or building a strategy that 
-            scales, I focus on one thing: <br />helping businesses sell more and grow faster.</p>
+            I focus on one thing: <br />helping businesses sell more and grow faster.</p>
           
           <a href="#projects-section" id='works-button'>
             <button className='more-button'>

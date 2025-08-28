@@ -11,8 +11,8 @@ const About = () => {
         <div className='about' id='about-section' data-aos="slide-up">
             <h2>About Me</h2>
             
-            <div className="about-content">
-                <div className="about-right">
+            
+                <div className="about-content">
                     <p>
                     I didn’t just stumble into marketing , I built my career on the simple truth 
                     that the right words and strategy can change everything for a business. <br /><br />
@@ -32,7 +32,7 @@ const About = () => {
                     If you’re looking for someone who can combine persuasion, strategy, and execution
                      to help your business grow, let’s talk.</p>
                 </div>
-            </div>
+            
         </div>
     )
 }

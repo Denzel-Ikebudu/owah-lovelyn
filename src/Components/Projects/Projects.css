@@ -1,8 +1,10 @@
 .project-container {
-    margin: 40px auto;
     padding: 40px;
     color: #333;
     background: #223246;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 h2{
@@ -47,13 +49,12 @@ h3{
 
 .project-box:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    color: #ffffffd0;
 }
 
 .project-header  {
     padding: 25px 30px;
-    /* width: 25%;
-    height: 25%; */
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #223246;
     background-color: #fff;
@@ -145,12 +146,11 @@ h3{
 
 @media (max-width: 768px) {
     .project-container {
-        margin: 20px auto;
         padding: 15px;
     }
 
     .project-header {
-        font-size: 1.4rem;
+        font-size: 1rem;
         padding: 20px 25px;
     }
 
@@ -159,18 +159,18 @@ h3{
     }
 
     .document-container {
-        flex-direction: column; /* Stack documents vertically on small screens */
+        flex-direction: column; 
         gap: 20px;
     }
 
     .each-box {
-        max-width: 100%; /* Take full width */
-        min-width: unset; /* Remove min-width constraint */
+        max-width: 100%; 
+        min-width: unset; 
         padding: 15px;
     }
 
     .each-box iframe {
-        min-height: 300px; /* Reduce iframe height on small screens */
+        min-height: 300px; 
     }
 
     .download-btn {
