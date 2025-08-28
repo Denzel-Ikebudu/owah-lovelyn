@@ -20,19 +20,21 @@
      align-items: center;
      justify-content: space-between;
 }
-.image{
-    display: flex;
-    filter: brightness(0.9);
-}
-.image img{
+
+/* .image{
+  filter: brightness(0.9);
+  
+} */
+
+  .image img{
     opacity: 0;
-    border-radius: 20px;
-    height: 25rem;
-    width: 16rem;
-    object-fit: cover;
-    transform: translateX(50px);
     animation: slideInImage 1s ease forwards;
-    animation-delay: 1.5s;
+    transform: translateX(50px);
+  animation-delay: 1.5s;
+  width: 22rem;
+  height: 28rem;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .image-text h2{
