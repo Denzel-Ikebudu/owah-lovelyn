@@ -1,59 +1,74 @@
 .navbar{    
-    background: #223246;
+    background: #04012d;
     color: #ffffff;
-    text-shadow: 2px 2px 5px #223246;
-    padding: 3rem;
+    padding: 3rem 4rem;
     height: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #fff;
 }
 
 .menu-icon{
     display: none;
     cursor: pointer;
 }
+
 .menu-icon img{
     width: 25px;
     height: 25px;
 }
+
 .navbar-links ul {
     display: flex;
     gap: 50px;
     justify-content: center;
     align-items: center;
 }
+
 ul li{
     list-style: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
 ul li:hover {
-    color: #4A90E2;
+    color: #ff8c00;
     transform: scale(1.2);
 }
+
 ul li a{
     color: #fff;
     text-decoration: none;
     list-style: none;
 }
 
+.navbar-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+}
+
 button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px;
-    background-color: #ffffff;
+    gap: 6px;   
+    background-color: #ff8c00;
+    color: #ffffff;
     padding: 0.5rem 0.6rem;
     border-radius: 8px;
     font-size: 1rem;
+    font-weight: 600;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 button:hover{
     transform: scale(1.1);
     color: #ffffff;
-    background: #223246;
+    background: #04012d;
     border: 1px solid #ffffff;
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
 }
@@ -64,7 +79,7 @@ button:hover img{
 button img {
     width: 20px;
     height: 20px;
-    color: #223246;
+    filter: brightness(0) invert(1);
     animation: arrowMove 2s ease-in-out infinite;
 }
 #contact-btn{

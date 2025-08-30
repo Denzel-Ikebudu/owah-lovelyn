@@ -4,7 +4,7 @@
     display: inline-block;
 }
 .about h2{
-    color: #223242;
+    color: #014051;
     display: flex;
     justify-content: center;
     padding-bottom: 1.5rem;
@@ -19,6 +19,21 @@
     color: #014051;
 }
 
+.skills ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    padding: 5px;
+}
+.skills ul li{
+    list-style: circle;
+
+}
+
 @media screen and (max-width: 768px){
     .about{
         padding: 15px;
@@ -27,5 +42,10 @@
 @media screen and (max-width: 455px){
     .about{
         padding: 5px;
+    }
+    .skills ul{
+        flex-direction: column;
+        padding-bottom: 20px;
+        gap: 15px;
     }
 }

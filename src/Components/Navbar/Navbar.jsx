@@ -10,7 +10,9 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <h2 className='navbar-name'>Owah Lovelyn</h2>
+      <div className='navbar-name'>
+        <h2>Owah Lovelyn</h2>
+      </div>
 
       <div className={`navbar-links ${isOpen ? 'active': ''}`}>
         <ul>

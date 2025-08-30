@@ -1,8 +1,9 @@
 import React from 'react'
 import './Hero.css'
 import Navbar from '../Navbar/Navbar'
-import profile_pic from '../../assets/obawole_profile_pic.jpg'
-import arrow_icon from '../../assets/arrow-icon.png'
+import profile_pic from '../../assets/IMG-20250829-WA0091-Photoroom.png'
+// import arrow_icon from '../../assets/arrow-icon.png'
+import resume from '../../assets/OWAH- Digital Mkt_011154.pdf'
 import '../../App'
 
 const Hero = () => {
@@ -19,17 +20,15 @@ const Hero = () => {
           <span className="hello">Hello there,</span>
 
           <span className="introText">
-            I'm <span className='introName'>Lovelyn</span><br />
+            I'm <span className='introName'>Lovelyn </span><br />
           </span>
           <span className='introRole'>Business growth strategist <br /> and Copywriter</span>
 
           <p className="introPara"> 
             I focus on one thing: <br />helping businesses sell more and grow faster.</p>
           
-          <a href="#projects-section" id='works-button'>
-            <button className='more-button'>
-             My works
-            <img src={arrow_icon} alt="" />
+          <a href={resume} download  id='works-button'>
+            <button className='more-btn'>Download Resume'
             </button>
           </a>
           

@@ -1,16 +1,11 @@
-// src/components/About.js
 import React from 'react'
 import './About.css'
-
-// You don't need to import the image files here if you're using them in CSS
-// import aboutImg from '../../assets/about-section.jpg'
-// import lovelynAbout from '../../assets/lovelyn-about.jpg'
 
 const About = () => {
     return (
         <div className='about' id='about-section' data-aos="slide-up">
-            <h2>About Me</h2>
             
+            <h2>About Me</h2>
             
                 <div className="about-content">
                     <p>
@@ -33,6 +28,22 @@ const About = () => {
                      to help your business grow, let’s talk.</p>
                 </div>
             
+                <div className="skill-part">
+                    <h2>Skills</h2>
+                    <div className='skills'>
+                        <ul>
+                            <li>Copywriting </li>
+                            <li>Editing </li>
+                            <li>SEO writing </li>
+                            <li>Sound Marketing Analyst </li>
+                            <li>Advanced Experience with Google Analytics</li>
+
+                            
+                        </ul>
+
+                    </div>
+
+                </div>
         </div>
     )
 }

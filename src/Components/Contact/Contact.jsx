@@ -9,11 +9,15 @@ const Contact = () => {
     <div className='contact' id='contact-section'>
         <h2>CONTACT <span>ME</span></h2>
         <p>If you have any questions or 
-            would like to work together, feel free to reach out!</p>
+            would like to work together, feel free to reach out!
+            <br /><br />
+            Call, send an email or reach out to me on LinkedIn by clicking the icons below.
+            </p>
+
         <div className='contact-info'>
 
             <div className='contact-item'>
-                <a href="mailto:lowah258@gmail.com">
+                <a href="mailto:lowah258@gmail.com" target='_blank'>
                     <img src={mail_icon} />
                     {/* <p>Owah Lovelyn</p> */}
                 </a>
@@ -27,15 +31,13 @@ const Contact = () => {
             </div>
 
             <div className='contact-item'>
-                <a href="https://www.linkedin.com/in/lovlyn-owah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <a href="https://www.linkedin.com/in/lovlyn-owah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'>
                     <img src={linkedin_logo} alt="" />
                     {/* <p>Owah Lovelyn</p> */}
                 </a>
             </div>
         </div>
-        <p>Copyright &copy; 2025 My Profile.
-            <br/> 
-            All rights reserved</p>
+        <p>Copyright &copy; 2025 My Profile. All rights reserved</p>
     </div>
   )
 }
