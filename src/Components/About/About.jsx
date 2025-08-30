@@ -37,8 +37,6 @@ const About = () => {
                             <li>SEO writing </li>
                             <li>Sound Marketing Analyst </li>
                             <li>Advanced Experience with Google Analytics</li>
-
-                            
                         </ul>
 
                     </div>
