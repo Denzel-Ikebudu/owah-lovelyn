@@ -27,9 +27,8 @@ const Hero = () => {
           <p className="introPara"> 
             I focus on one thing: <br />helping businesses sell more and grow faster.</p>
           
-          <a href={resume} download  >
-            <button className='more-btn'>Download Resume'
-            </button>
+          <a href={resume} download id='works-button' >
+            <button className='more-button'>Download Resume'</button>
           </a>
           
         </div>
