@@ -5,9 +5,11 @@ import arrow_icon from '../../assets/arrow-icon.png'
 import menu_icon from '../../assets/icons-menu.png'
 import close_icon from '../../assets/icons-close.png'
 import '../../App'
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
 
+const Navbar = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+  
   return (
     <div className='navbar'>
       <div className='navbar-name'>

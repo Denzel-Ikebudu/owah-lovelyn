@@ -2,7 +2,6 @@ import React from 'react'
 import './Hero.css'
 import Navbar from '../Navbar/Navbar'
 import profile_pic from '../../assets/IMG-20250829-WA0091-Photoroom.png'
-// import arrow_icon from '../../assets/arrow-icon.png'
 import resume from '../../assets/OWAH- Digital Mkt_011154.pdf'
 import '../../App'
 

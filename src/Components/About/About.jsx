@@ -33,10 +33,14 @@ const About = () => {
                     <div className='skills'>
                         <ul>
                             <li>Copywriting </li>
-                            <li>Editing </li>
+                            <li>Editing</li>
+                            <li>Social media strategy and management</li>
+                        </ul>
+                        <ul>
                             <li>SEO writing </li>
                             <li>Sound Marketing Analyst </li>
                             <li>Advanced Experience with Google Analytics</li>
+
                         </ul>
 
                     </div>
